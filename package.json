@@ -15,7 +15,7 @@
   "licenses": "MIT",
   "spm": {
     "main": "rawdeflate.js",
-    "output": ["rawinflate.js"],
+    "output": ["rawinflate.js", "base64.js"],
     "dependencies": {
     },
     "devDependencies": {
