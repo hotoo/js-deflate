@@ -1,20 +1,21 @@
 {
   "name": "deflate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JSON Object to QueryString.",
   "keywords": ["deflate", "inflate", "gzip"],
-  "homepage": "",
+  "homepage": "https://github.com/dankogai/js-deflate",
   "author": "hotoo <hotoo.cn@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:dankogai/js-deflate.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/dankogai/js-deflate/issues"
   },
   "licenses": "MIT",
   "spm": {
     "main": "rawdeflate.js",
+    "output": ["rawinflate.js"],
     "dependencies": {
     },
     "devDependencies": {
