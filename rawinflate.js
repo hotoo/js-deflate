@@ -7,7 +7,6 @@
  *   http://www.onicos.com/staff/iz/amuse/javascript/expert/inflate.txt
  */
 
-(function(ctx){
 
 /* Copyright (C) 1999 Masanao Izumo <iz@onicos.co.jp>
  * Version: 1.0.0.1
@@ -749,7 +748,4 @@ var zip_inflate = function(str) {
     return aout.join("");
 }
 
-if (! ctx.RawDeflate) ctx.RawDeflate = {};
-ctx.RawDeflate.inflate = zip_inflate;
-
-})(this);
+module.exports = zip_inflate;
